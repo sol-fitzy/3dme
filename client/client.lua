@@ -27,8 +27,7 @@ CreateThread(function()
         local displayOccurance = {}
         for i = tblLength, 1, -1 do 
             local display = currentDisplaying[i]
-            displayOccurance[display.ply] = displayOccurance[display.ply] or 0
-            displayOccurance[display.ply] += 1
+            displayOccurance[display.ply] = displayOccurance[display.ply] or 0 or 1
             local tgtPed = GetPlayerPed(display.ply)
             local hasLos = HasEntityClearLosToEntity(plyPed, tgtPed, 13)
             local tgtCoords = GetEntityCoords(tgtPed)
