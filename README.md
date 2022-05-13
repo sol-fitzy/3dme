@@ -12,6 +12,7 @@ This script is only compatible with OneSync Infinity
 # Config
 
 All of the config is done via ConVars in order to streamline the process.
+Adjust your blacklisted words /server/filterwords.json
 
 The ints are used like a boolean to 0 would be false, 1 true.
 
