@@ -5,7 +5,7 @@ lua54 'yes'
 
 author 'Avarian Knight'
 description '/me with word filtering & OneSync Infinity support'
-version '1.0'
+version '1.1'
 
 client_script 'client/client.lua'
 server_script 'server/server.js'
